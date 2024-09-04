@@ -1,0 +1,38 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: grid;
+    grid-template: 1fr / 1fr;
+    margin: auto;
+    margin-top: 15%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    box-shadow: black 0 0 25px 10px;
+    border: black 15px double;
+    height: 200px;
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: red;
+    text-shadow: red 0px 0px 12px;
+}
